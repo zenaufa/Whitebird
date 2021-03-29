@@ -22,6 +22,7 @@ services:
     container_name: WhitebirdFrontend
     restart: 'no'
     build: ../../frontend
+    env_file: ./frontend.env
     ports:
       - '40000:5000'
 
