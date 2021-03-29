@@ -6,11 +6,11 @@ LABEL stage="builder"
 WORKDIR /app
 
 # Backend Server Location
-ENV API_URL='http://localhost:40001/'
-ENV SOCKET_URL='http://localhost:40001/'
+ENV API_URL='http://whitebird.zenaufa.id:40001/'
+ENV SOCKET_URL='http://whitebird.zenaufa.id:40001/'
 
 # Frontend Host
-ENV FRONTEND_HOST='http://localhost:40000'
+ENV FRONTEND_HOST='http://whitebird.zenaufa.id:40000'
 
 # Copy Needed Files for Dependencies
 COPY package.json ./package.json
